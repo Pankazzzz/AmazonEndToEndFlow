@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-14T00:51:19 IST" name="Default suite" finished-at="2025-04-14T00:51:53 IST" duration-ms="33435">
+    <groups>
+    </groups>
+    <test started-at="2025-04-14T00:51:19 IST" name="Default test" finished-at="2025-04-14T00:51:53 IST" duration-ms="33435">
+      <class name="AmazonEndToEndFlow.Amazon.DeleteProduct">
+        <test-method is-config="true" signature="load()[pri:0, instance:AmazonEndToEndFlow.Amazon.DeleteProduct@479d31f3]" started-at="2025-04-14T00:51:19 IST" name="load" finished-at="2025-04-14T00:51:22 IST" duration-ms="2986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load -->
+        <test-method signature="deleteProduct(java.util.HashMap)[pri:1, instance:AmazonEndToEndFlow.Amazon.DeleteProduct@479d31f3]" started-at="2025-04-14T00:51:22 IST" name="deleteProduct" data-provider="dataLoad" finished-at="2025-04-14T00:51:52 IST" duration-ms="30218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{setProduct=parachute hair oil, password=9022575112@, quantity=5, addProduct=Parachute Coconut Oil - 1 L Pet Jar, username=shuklapankaj799@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteProduct -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:AmazonEndToEndFlow.Amazon.DeleteProduct@479d31f3]" started-at="2025-04-14T00:51:52 IST" name="quit" finished-at="2025-04-14T00:51:53 IST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- AmazonEndToEndFlow.Amazon.DeleteProduct -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

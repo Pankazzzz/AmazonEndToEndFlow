@@ -1,0 +1,12 @@
+<suite name="Suite">
+
+<listeners>
+<listener class-name="TestUtilities.Listeners"></listener>
+</listeners>
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="AmazonEndToEndFlow.Amazon.FlowTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -40,10 +40,10 @@ public class StandAloneFlow {
 		Thread.sleep(2000);
 		WebElement emailLogin = driver.findElement(By.xpath("//*[@type='email']"));
 		waitDriver.until(ExpectedConditions.visibilityOf(emailLogin));
-		emailLogin.sendKeys("shuklapankaj799@gmail.com");
+		emailLogin.sendKeys("email.com");
 		driver.findElement(By.className("a-button-input")).click();
 		waitDriver.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@type='password']")));
-		driver.findElement(By.xpath("//input[@type='password']")).sendKeys("9022575112@");
+		driver.findElement(By.xpath("//input[@type='password']")).sendKeys("password");
 		driver.findElement(By.cssSelector("[type='submit']")).click();
 		
 			
@@ -121,10 +121,10 @@ public class StandAloneFlow {
 		Thread.sleep(2000);
 		WebElement emailLogin = driver.findElement(By.xpath("//*[@type='email']"));
 		waitDriver.until(ExpectedConditions.visibilityOf(emailLogin));
-		emailLogin.sendKeys("shuklapankaj799@gmail.com");
+		emailLogin.sendKeys("email");
 		driver.findElement(By.className("a-button-input")).click();
 		waitDriver.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@type='password']")));
-		driver.findElement(By.xpath("//input[@type='password']")).sendKeys("9022575112@");
+		driver.findElement(By.xpath("//input[@type='password']")).sendKeys("password");
 		driver.findElement(By.cssSelector("[type='submit']")).click();
 		
 			
@@ -154,10 +154,10 @@ public class StandAloneFlow {
 		Thread.sleep(2000);
 		WebElement emailLogin = driver.findElement(By.xpath("//*[@type='email']"));
 		waitDriver.until(ExpectedConditions.visibilityOf(emailLogin));
-		emailLogin.sendKeys("shuklapankaj799@gmail.com");
+		emailLogin.sendKeys("email");
 		driver.findElement(By.className("a-button-input")).click();
 		waitDriver.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@type='password']")));
-		driver.findElement(By.xpath("//input[@type='password']")).sendKeys("9022575112@");
+		driver.findElement(By.xpath("//input[@type='password']")).sendKeys("password");
 		driver.findElement(By.cssSelector("[type='submit']")).click();
 		
 			

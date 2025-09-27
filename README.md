@@ -31,3 +31,9 @@ End-to-end automation of the Amazon shopping flow (search → add to cart → ch
 ```bash
 git clone git@github.com:yourUser/AmazonEndToEndFlow.git
 cd AmazonEndToEndFlow
+
+## Config Changes
+```bash
+export AMAZON_USERNAME=...
+export AMAZON_PASSWORD=...
+mvn clean test -Damazon.username=${AMAZON_USERNAME} -Damazon.password=${AMAZON_PASSWORD}
